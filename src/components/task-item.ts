@@ -1,7 +1,7 @@
-import { Draggable } from '../models/drag-drop.js';
-import { Task } from '../models/task.js';
-import Component from './base-component.js';
-import { autobind } from '../decorators/autobind.js';
+import { Draggable } from '../models/drag-drop';
+import { Task } from '../models/task';
+import Component from './base-component';
+import { autobind } from '../decorators/autobind';
 
 // TaskItem Class
 export class TaskItem extends Component<HTMLUListElement, HTMLLIElement>

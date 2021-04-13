@@ -1,7 +1,7 @@
-import Component from './base-component.js';
-import { Validatable, validate } from '../util/validation.js';
-import { autobind } from '../decorators/autobind.js';
-import { taskState } from '../state/task-state.js';
+import Component from './base-component';
+import { Validatable, validate } from '../util/validation';
+import { autobind } from '../decorators/autobind';
+import { taskState } from '../state/task-state';
 
 // TaskInput Class
 export class TaskInput extends Component<HTMLDivElement, HTMLFormElement> {

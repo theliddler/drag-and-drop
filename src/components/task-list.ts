@@ -1,9 +1,9 @@
-import { DragTarget } from '../models/drag-drop.js';
-import { Task, TaskStatus } from '../models/task.js';
-import Component from './base-component.js';
-import { autobind } from '../decorators/autobind.js';
-import { taskState } from '../state/task-state.js';
-import { TaskItem } from './task-item.js';
+import { DragTarget } from '../models/drag-drop';
+import { Task, TaskStatus } from '../models/task';
+import Component from './base-component';
+import { autobind } from '../decorators/autobind';
+import { taskState } from '../state/task-state';
+import { TaskItem } from './task-item';
 
 // TaskList Class
 export class TaskList extends Component<HTMLDivElement, HTMLElement>

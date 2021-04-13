@@ -1,4 +1,4 @@
-import { Task, TaskStatus } from '../models/task.js';
+import { Task, TaskStatus } from '../models/task';
 
 // Task State Management
 type Listener<T> = (items: T[]) => void;
