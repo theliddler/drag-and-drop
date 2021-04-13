@@ -1,6 +1,6 @@
 import { Draggable } from '../models/drag-drop.js';
 import { Task } from '../models/task.js';
-import { Component } from './base-component.js';
+import Component from './base-component.js';
 import { autobind } from '../decorators/autobind.js';
 
 // TaskItem Class

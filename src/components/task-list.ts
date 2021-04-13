@@ -1,6 +1,6 @@
 import { DragTarget } from '../models/drag-drop.js';
 import { Task, TaskStatus } from '../models/task.js';
-import { Component } from './base-component.js';
+import Component from './base-component.js';
 import { autobind } from '../decorators/autobind.js';
 import { taskState } from '../state/task-state.js';
 import { TaskItem } from './task-item.js';

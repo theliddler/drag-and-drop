@@ -1,4 +1,4 @@
-import { Component } from './base-component.js';
+import Component from './base-component.js';
 import { Validatable, validate } from '../util/validation.js';
 import { autobind } from '../decorators/autobind.js';
 import { taskState } from '../state/task-state.js';
@@ -41,7 +41,7 @@ export class TaskInput extends Component<HTMLDivElement, HTMLFormElement> {
 
     if (
       !validate(titleValidatable) ||
-      !validate(descriptionValidatable) ||
+      !validate(descriptionValidatable)
     ) {
       alert('Invalid input, please try again!');
       return;
